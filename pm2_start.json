@@ -1,0 +1,17 @@
+{
+  "name": "sanmei",
+  "script": "./src/bin/www",
+  "cwd": "./",
+  "ignore_watch": [
+    "logs"
+  ],
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "error_file": "./log/app-err.log",
+  "out_file": "./log/app-out.log",
+  "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS Z",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
